@@ -1,0 +1,81 @@
+[
+  {
+    "page_label": "Search Keyword",
+    "fields": [
+      {
+        "field_id": "simple_search_box",
+        "field_label": "Simple Search",
+        "field_mandatory": "false",
+        "field_placeholder": "Keyword or phrase",
+        "field_type": "text",
+        "field_value": ""
+      },
+      {
+        "field_id": "search_categories",
+        "field_label": "Search Categories",
+        "field_value": "--please select--",
+        "field_mandatory": "false",
+        "field_options": [
+          {
+            "option_label": "Abusive Behavior"
+          },
+          {
+            "option_label": "Part-Time"
+          }
+        ],
+        "field_type": "select"
+      },
+      {
+        "field_id": "file_name",
+        "field_label": "File Name",
+        "field_mandatory": "false",
+        "field_placeholder": "Input File Name",
+        "field_type": "text"
+      },
+      {
+        "field_id": "lead_id",
+        "field_label": "Lead id",
+        "field_mandatory": "false",
+        "field_placeholder": "Lead ID",
+        "field_type": "text"
+      },
+      {
+        "field_id": "agent_id",
+        "field_label": "Agent id",
+        "field_mandatory": "false",
+        "field_placeholder": "Agent ID",
+        "field_type": "text"
+      },
+
+      {
+        "field_id": "product_id",
+        "field_label": "Product",
+        "field_value": "--please select--",
+        "field_mandatory": "false",
+        "field_options": [
+          {
+            "option_label": "Health"
+          },
+          {
+            "option_label": "Moter"
+          }
+        ],
+        "field_type": "select"
+      },
+
+      {
+        "field_id": "recording_date_id",
+        "field_label": "Recording",
+        "field_mandatory": "false",
+        "field_placeholder": "from",
+        "field_type": "text"
+      },
+      {
+        "field_id": "recording_date_id",
+        "field_mandatory": "false",
+        "field_placeholder": "to",
+        "field_type": "text"
+      }
+    ]
+  }
+]
